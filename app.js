@@ -31,7 +31,7 @@ app.use(flash())
 app.set("view engine", "ejs")
 
 
-app.use("/index", indexRouter)
+app.use("/", indexRouter)
 app.use("/owners", ownersRouter)
 app.use("/users", usersRouter)
 app.use("/products", productsRouter)
